@@ -1,0 +1,13 @@
+name: Demo
+on: workflow_dispatach
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run the script
+        run: echo "Hello World"
+      - name: sample step
+        run: echo "Welcome"
+      - name: list folders
+        run: dir 
+        
